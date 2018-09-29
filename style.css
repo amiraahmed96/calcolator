@@ -1,0 +1,66 @@
+body
+{
+    background: linear-gradient(mediumpurple,black);
+    -moz-background: linear-gradient(mediumpurple,black);
+}
+h1
+{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+.calc
+{
+    width: 320px;
+    height: 410px;
+    background-color: beige;
+    margin: auto;
+    border-radius: 10px;
+}
+.calc input
+{
+    
+    width: 90%;
+    height: 40px;
+    display: inline-block;
+    margin: 30px 20px auto;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.calc button
+{
+    width: 55px;
+    height: 55px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.btn-primary
+{
+    background-color: mediumpurple;
+    border-color: mediumpurple;
+}
+.btn-primary:focus
+{
+   background-color: mediumpurple; 
+}
+.btn-primary:hover
+{
+    background-color: rebeccapurple;
+}
+#num7,
+#num4,
+#num1,
+#num0,
+#sin
+{
+    margin-left: 5%;
+}
+#num0
+{
+  width: 115px;  
+}
+#equl
+{
+    height: 115px;
+    margin-top: -55px;
+}
